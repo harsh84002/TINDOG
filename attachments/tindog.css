@@ -1,0 +1,43 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.top{
+  font-family: 'Belanosima', sans-serif;
+}
+
+
+.dog{
+  width: 100px;
+  border-radius: 50px;
+  margin: 50px 0 10px 0;
+}
+
+.dog2{
+  width: 30px;
+  border-radius: 50px;
+  margin: 10px 0 10px 2px;;
+}
+
+.bottom{
+  font-family: 'Belanosima', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
